@@ -1,0 +1,58 @@
+
+<div class="grid-view">
+    <h1>Galeria</h1>
+    <mat-grid-list cols="4" rowHeight="100px">
+        <mat-grid-tile>
+            <img src="../../../assets/logos/caterpillar.png" height="100px">
+        </mat-grid-tile>
+        <mat-grid-tile>
+            <img src="../../../assets/logos/volvo.jpg" height="100px">
+        </mat-grid-tile>
+        <mat-grid-tile>
+            <img src="../../../assets/logos/scania.png" height="100px">
+        </mat-grid-tile>
+        <mat-grid-tile>
+            <img src="../../../assets/logos/mwm.png" height="150px">
+        </mat-grid-tile>
+        <mat-grid-tile rowspan="2">
+            <img src="../../../assets/images/pa_carregadeira.jpg" height="150px">
+        </mat-grid-tile>
+        <mat-grid-tile rowspan="2">
+            <img src="../../../assets/images/empilhadeira.jpg" height="300px">
+        </mat-grid-tile>
+        <mat-grid-tile rowspan="2">
+            <img src="../../../assets/images/scania.jpg" height="250px">
+        </mat-grid-tile>
+        <mat-grid-tile rowspan="2">
+            <img src="../../../assets/images/pa_carregadeira2.jpg" height="250px">
+        </mat-grid-tile>
+    </mat-grid-list>
+</div>
+
+<div style="float: left; background-image: url(../../../assets/images/volvo_widesize2.jpg); height: 400px; width: 100%;">
+    <form>
+        <div class="form-contato">
+            <mat-card>
+                <mat-card-header>
+                    <mat-card-title>Contate-nos</mat-card-title>
+                </mat-card-header>
+                <mat-card-content>
+                    <mat-form-field class="input-contato">
+                        <input matInput placeholder="Nome" required>
+                    </mat-form-field>
+                    <mat-form-field class="input-contato">
+                        <input matInput placeholder="Email" type="email" required>
+                    </mat-form-field>
+                    <mat-form-field class="input-contato">
+                        <input matInput placeholder="Fone">
+                    </mat-form-field>
+                    <mat-form-field class="input-textarea">
+                        <textarea matInput placeholder="Mensagem" style="height: 90px;" required></textarea>
+                    </mat-form-field>
+                    <br>
+                    <button mat-raised-button class="button-contato" type="submit">Enviar</button>
+                </mat-card-content>
+            </mat-card>
+        </div>
+    </form>
+</div>
