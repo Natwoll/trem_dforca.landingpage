@@ -15,11 +15,17 @@ import {MatInputModule} from '@angular/material/input';
 import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
 import {MatGridListModule} from '@angular/material/grid-list';
+import {MatDialogModule} from '@angular/material/dialog';
+import { DialogContactComponent } from './dialog-contact/dialog-contact.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    DialogContactComponent
+  ],
+  entryComponents: [
+    DialogContactComponent
   ],
   imports: [
     BrowserModule,
@@ -33,6 +39,7 @@ import {MatGridListModule} from '@angular/material/grid-list';
     MatGridListModule,
     MatButtonModule,
     MatIconModule,
+    MatDialogModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
