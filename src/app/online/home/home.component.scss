@@ -33,7 +33,7 @@
 
 .description-container{
     float: left;
-    width: 100%;
+    width: 100%;    
     margin-top: 20px;
     margin-left: 15px;
 }
@@ -50,15 +50,14 @@
 .grid-view{
     width: 80%;
     margin-left: 10%;
-    margin-top: 120px;
-    margin-bottom: 100px;
+    margin-top: 300px;
     text-align: center;
 }
 
 .contato-container{
-    background-image: url(../../../assets/images/volvo_widesize2.jpg);
+    background-image: url(../../../assets/images/retroescavadeira.jpg);
     width: 100%;
-    min-height: 100vh;
+    height: 100vh;
+    min-height: 600px;
     color: white;
-    background-size: cover;
 }
