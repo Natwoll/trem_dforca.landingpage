@@ -5,6 +5,7 @@
     background: #D8415A;
     box-shadow: 1px 1px 5px #9F4655;
     color: white;
+    z-index: 1;
 }
 
 .button-contact{
@@ -28,4 +29,8 @@
 
 a{
     color: white;
+}
+
+img {
+    z-index: -1;
 }
