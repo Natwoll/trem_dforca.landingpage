@@ -15,4 +15,8 @@ export class AppComponent {
   public openDialog() {
     this.dialog.open(DialogContactComponent);
   }
+
+  public gotoContact() {
+    window.location.href = "#contato-container";
+  }
 }
