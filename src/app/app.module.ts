@@ -7,21 +7,23 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomeComponent } from './online/home/home.component';
 
 //Materials
-import {MatTabsModule} from '@angular/material/tabs';
-import {MatToolbarModule} from '@angular/material/toolbar';
-import {MatFormFieldModule} from '@angular/material/form-field';
-import {MatCardModule} from '@angular/material/card';
-import {MatInputModule} from '@angular/material/input';
-import {MatButtonModule} from '@angular/material/button';
-import {MatIconModule} from '@angular/material/icon';
-import {MatGridListModule} from '@angular/material/grid-list';
-import {MatDialogModule} from '@angular/material/dialog';
+import { MatTabsModule } from '@angular/material/tabs';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatCardModule } from '@angular/material/card';
+import { MatInputModule } from '@angular/material/input';
+import { MatButtonModule } from '@angular/material/button';
+import { MatIconModule } from '@angular/material/icon';
+import { MatGridListModule } from '@angular/material/grid-list';
+import { HeaderComponent } from './online/header/header.component';
+import { MatDialogModule } from '@angular/material/dialog';
 import { DialogContactComponent } from './dialog-contact/dialog-contact.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
+    HeaderComponent,
     DialogContactComponent
   ],
   entryComponents: [
