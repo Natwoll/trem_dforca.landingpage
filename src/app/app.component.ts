@@ -12,11 +12,11 @@ export class AppComponent {
 
   constructor(public dialog: MatDialog) {}
 
-  public openDialog() {
+  public openDialog(): void {
     this.dialog.open(DialogContactComponent);
   }
 
-  public gotoContact() {
+  public gotoContact(): void {
     window.location.href = "#contato-container";
   }
 }

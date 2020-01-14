@@ -1,21 +1,22 @@
-<meta charset="UTF-8">
 <mat-toolbar class="toolbar">
   <button mat-button><span>MARCAS</span></button>
   <button mat-button><span>SOBRE NÓS</span></button>
-  <button mat-button><span>CONTATO</span></button>
+  <button mat-button (click)="openDialog()"><span>CONTATO</span></button>
+  <span class="fill-remaining-space"></span>
+  <div class="float-buttons">
+    <button mat-icon-button class="button-contact">
+      <img src="../assets/icons/whatsapp.svg" height="40px">
+    </button>
+    <button mat-icon-button class="button-contact" (click)="gotoContact()">
+      <img src="../assets/icons/gmail.svg" height="30px">
+    </button>
+    <button mat-icon-button class="button-contact">
+      <img src="../assets/icons/telephone.svg" height="30px">
+    </button>
+  </div>
 </mat-toolbar>
 
-<div class="float-buttons">
-  <button mat-icon-button (click)="openDialog()">
-    <img src="../assets/icons/whatsapp.svg" height="40px">
-  </button>
-  <button mat-icon-button>
-    <img src="../assets/icons/gmail.svg" height="30px">
-  </button>
-  <button mat-icon-button (click)="gotoContact()">
-    <img src="../assets/icons/telephone.svg" height="30px">
-  </button>
-</div>
+
 
 <router-outlet></router-outlet>
 
