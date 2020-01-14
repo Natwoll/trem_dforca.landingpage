@@ -1,3 +1,4 @@
+<meta charset="UTF-8">
 <mat-toolbar class="toolbar">
   <button mat-button><span>MARCAS</span></button>
   <button mat-button><span>SOBRE NÓS</span></button>
@@ -11,7 +12,7 @@
   <button mat-icon-button>
     <img src="../assets/icons/gmail.svg" height="30px">
   </button>
-  <button mat-icon-button>
+  <button mat-icon-button (click)="gotoContact()">
     <img src="../assets/icons/telephone.svg" height="30px">
   </button>
 </div>
@@ -19,5 +20,9 @@
 <router-outlet></router-outlet>
 
 <div class="footer">
-
+  <p>
+    Copyleft <span style="display: inline-block;transform: rotate(180deg);">&copy;</span>2020
+    NatWoll
+    <a href="https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html">GPL-2</a>
+  </p>
 </div>
